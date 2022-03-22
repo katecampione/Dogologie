@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"><link rel="stylesheet" href="https://cdn.pagefly.io/pagefly/2.12.7/css/main-style.css?t=20200729110719"><link rel="stylesheet" href="{{ 'pagefly.9164780b.scss.css' | asset_url }}">
+		  <div class="__pf" id="__pf"><div data-pf-type="Body" class="sc-pRgDJ fzXWJx pf-d438a0dc"><div data-pf-type="Layout" class="pf-cbbed438"><div data-pf-type="ProductPreview" class="sc-pJVLq dIjrXL pf-4a66db0f">{% section 'static-product' %}
+{% section 'static-product-recommendations' %}
+
+<script>
+  Theme.products["{{ product.id }}"] = {{ product | json }};
+  Theme.products["{{ product.id }}"].firstVariant = {{ product.selected_or_first_available_variant.id | json }};
+</script>
+</div></div></div></div><script>
+					window.__pagefly_setting__={"baseURL":"https://apps.pagefly.io","analyticsURL":"https://analytics.pagefly.io","isBackend":false,"cdnURL":"https://cdn.pagefly.io","pageflyVersion":"2.12.7","shopDomain":"dogologie.myshopify.com","elementData":{},"pageTitle":"Default","pageType":"product","pageId":"9164780b-c21a-4bd0-adb3-1aee2cc15445","lazyLoad":false,"imageLazyLoad":false,"nativeImageLazyLoad":false,"trackingIDs":[]};
+					window.__pagefly_setting__.moneyFormat = {{shop.money_format | json}}
+				</script><script src="https://cdn.pagefly.io/pagefly/2.12.7/core/helper.js?t=20200729110719" defer></script>

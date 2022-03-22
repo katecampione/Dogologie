@@ -1,0 +1,1882 @@
+{
+  "current": {
+    "background-colour": "#ffffff",
+    "primary-border-colour": "#ebebeb",
+    "text-colour": "#052422",
+    "title-colour": "#052422",
+    "accent-colour": "#006b6e",
+    "cta-background-color": "#d8de5e",
+    "cta-text-color": "#052422",
+    "button-text-colour": "#ffffff",
+    "logotype-link-colour": "#052422",
+    "header-action-link-colour": "#052422",
+    "nav-link-colour": "#006b6e",
+    "nav-link-dropdown-colour": "#ffffff",
+    "nav-background-colour": "#006b6e",
+    "nav-border-colour": "#dddddd",
+    "font_body": "georgia_pro_n4",
+    "font_headings": "trade_gothic_n7",
+    "font_headings_captialize": false,
+    "font_headings_secondary": "trade_gothic_n7",
+    "font_accent": "trade_gothic_n4",
+    "favicon": "shopify:\/\/shop_images\/Dogologie-Mark.png",
+    "show-brand-names": false,
+    "image-borders": false,
+    "show_atc": true,
+    "show_product_secondary_image": false,
+    "enable_product_details_overlay": false,
+    "product_grid_aspect_ratio": "default",
+    "enable-quick-shop": false,
+    "quickshop_variant_options_style": "select",
+    "quickshop_show_variant_sku": false,
+    "quickshop-product-quantity-option": false,
+    "quickshop-product-email-link": false,
+    "quickshop_show_spb": false,
+    "quickshop_enable_cart_redirect": false,
+    "quickshop_social_sharing_buttons": false,
+    "quickshop_image_zoom": false,
+    "quickshop-thumb-orientation": "left",
+    "quickshop_fitting_guide_url": "",
+    "quickshop_fitting_guide_icon": "info",
+    "social_default_image": "",
+    "twitter-url": "https:\/\/twitter.com\/dogologie",
+    "facebook-url": "https:\/\/www.facebook.com\/dogologie",
+    "pinterest-url": "",
+    "instagram-url": "https:\/\/instagram.com\/dogologie",
+    "tumblr-url": "",
+    "youtube-url": "",
+    "vimeo-url": "",
+    "enable_currency_converter": false,
+    "currency_display_format": "money_format",
+    "currency_converter_currencies": "USD CAD EUR GBP AUD",
+    "currency_converter_default": "USD",
+    "enable_checkout_lock_icon": false,
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Dogologie-Logo-brown.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#ebebeb",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#006b6e",
+    "checkout_button_color": "#006b6e",
+    "checkout_error_color": "#e32c2b",
+    "cta-background-colour": "#d8de5e",
+    "cta-text-colour": "#000000",
+    "show-mailing-list": true,
+    "sections": {
+      "static-header": {
+        "type": "static-header",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Dogologie_Logo_Dark.png",
+          "logo-width": "200",
+          "header-layout": "normal",
+          "center-header": false,
+          "social-icons": false,
+          "show-labels": false,
+          "cart-icon": "cart",
+          "live_search_enabled": true,
+          "live_search_display": "product-article-page",
+          "menu": "main-menu",
+          "top-level-columns": "one-column"
+        }
+      },
+      "pxs-announcement-bar": {
+        "type": "pxs-announcement-bar",
+        "settings": {
+          "show_announcement": false,
+          "announcement_home_only": false,
+          "announcement_text": "Call attention to a special discount, feature, or promotion here.",
+          "announcement_text_mobile": "Use less text on mobile!",
+          "announcement_link": "",
+          "announcement_color": "#ffffff",
+          "announcement_background": "#355755"
+        }
+      },
+      "dynamic-slideshow": {
+        "type": "dynamic-slideshow",
+        "blocks": {
+          "dynamic-slideshow-block-one": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/manuel-meza-1457689-unsplash.jpg",
+              "slide_title": "Your Companion <br>to the Dog-Lover Lifestyle",
+              "caption": "Advice, care, products and community for people who love dogs.",
+              "button": "Love Your Breed",
+              "link": "https:\/\/dogologie.com\/collections\/love-your-breed",
+              "alignment": "left bottom",
+              "show_overlay": false,
+              "background": "#000000",
+              "opacity": 1
+            }
+          }
+        },
+        "block_order": [
+          "dynamic-slideshow-block-one"
+        ],
+        "settings": {
+          "desktop_height": "large",
+          "mobile_height": "small",
+          "full-width": true,
+          "parallax": false,
+          "autoplay_enable": false,
+          "transition": "slide",
+          "autoplay_interval": 5
+        }
+      },
+      "static-page": {
+        "type": "static-page",
+        "settings": {
+          "show-breadcrumbs": false,
+          "title": "",
+          "content": ""
+        }
+      },
+      "static-footer": {
+        "type": "static-footer",
+        "settings": {
+          "footer-message-title": "Heart",
+          "footer-message": "<p>Dogologie is an online lifestyle brand and a retail store based in Fredericksburg, the heart of the Texas Hill Country. We exist to be a companion to the dog-lover lifestyle and a place where faithful friends belong.<\/p>",
+          "footer-message-2-title": "Contact Us",
+          "footer-message-2": "<p>e: <a href=\"\/pages\/contact-us\" title=\"Contact Us\">Email Us<\/a><\/p><p>p: 830-997-5855<\/p><p>a: 148 East Main St.<br\/>Fredericksburg, Texas 78624<\/p>",
+          "footer-message-3-title": "Open",
+          "footer-message-3": "<p>Monday - Thursday: 10:30 am-5:30 pm <\/p><p>Friday-Saturday: 10 am-6 pm<\/p><p>Sunday: 10 am-5 pm<\/p><p>830-997-5855 ext. 3<\/p><p>Personal Shopping by appointment only available before and after regular store hours.<\/p><p>To schedule, call us or <a href=\"https:\/\/app.acuityscheduling.com\/schedule.php?owner=18669862&appointmentType=14032874\"><span style=\"text-decoration:underline\">click here<\/span><\/a>.<\/p><p><\/p>",
+          "footer-mailing-list": true,
+          "footer-payment-options": true,
+          "footer-alternate": false,
+          "footer-secondary-menu": ""
+        }
+      },
+      "static-search": {
+        "type": "static-search",
+        "settings": {
+          "show-breadcrumbs": false,
+          "pagination-style": "standard"
+        }
+      },
+      "static-collection-list": {
+        "type": "static-collection-list",
+        "settings": {
+          "show-breadcrumbs": true,
+          "rows": 6,
+          "collections-per-row": 3,
+          "pagination-style": "standard"
+        }
+      },
+      "static-404": {
+        "type": "static-404",
+        "settings": {
+          "show-breadcrumbs": true,
+          "products-collection": ""
+        }
+      },
+      "static-subcollection": {
+        "type": "static-subcollection",
+        "settings": {
+          "show-breadcrumbs": true,
+          "show-collection-image": false,
+          "layout": "collection"
+        }
+      },
+      "static-blog": {
+        "type": "static-blog",
+        "settings": {
+          "show-breadcrumbs": false,
+          "recent-posts": false,
+          "tag-list": false,
+          "pagination-style": "standard"
+        }
+      },
+      "static-page-contact": {
+        "type": "static-page-contact",
+        "settings": {
+          "show-breadcrumbs": false
+        }
+      },
+      "static-product": {
+        "type": "static-product",
+        "settings": {
+          "details_alignment": "left",
+          "variant_options_style": "radio",
+          "show_variant_sku": false,
+          "show-breadcrumbs": true,
+          "product-quantity-option": true,
+          "product-email-link": false,
+          "show_spb": true,
+          "enable_cart_redirect": false,
+          "social-sharing-buttons": false,
+          "image-zoom": false,
+          "thumb-orientation": "left",
+          "fitting-guide-link": "",
+          "fitting-guide-icon": "shirt"
+        }
+      },
+      "static-article": {
+        "type": "static-article",
+        "settings": {
+          "show-breadcrumbs": false,
+          "show-share": false,
+          "recent-posts": false,
+          "tag-list": false
+        }
+      },
+      "static-collection": {
+        "type": "static-collection",
+        "settings": {
+          "show-breadcrumbs": false,
+          "show-collection-image": false,
+          "rows": 6,
+          "products_per_row": 3,
+          "enable-sorting": true,
+          "enable-tagfilter": false,
+          "collection-sidebar": false,
+          "collection-sidebar-menu": "",
+          "pagination-style": "jump-to-page"
+        }
+      },
+      "static-cart": {
+        "type": "static-cart",
+        "settings": {
+          "show-breadcrumbs": false,
+          "shipping-calculator": false,
+          "shipping-calculator-default-country": "United States"
+        }
+      },
+      "static-product-recommendations": {
+        "type": "static-product-recommendations",
+        "settings": {
+          "show_product_recommendations": false,
+          "product_recommendations_heading": "You may also like"
+        }
+      },
+      "1571949201106": {
+        "type": "dynamic-slideshow",
+        "disabled": true,
+        "blocks": {
+          "1571949201106-0": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/thin-plant-stems-in-sun.jpg",
+              "slide_title": "Planning a trip to the Hill Country?",
+              "caption": "We love ‘em, but our fine canine friends require some planning. We’d love to meet your dog; here are a bundle of resources to help navigate the dog-friendly side of Fredericksburg and the Hill Country. From lodging, to wineries, to restaurants!",
+              "button": "Plan Your Trip",
+              "link": "shopify:\/\/pages\/visit-us",
+              "alignment": "center-center",
+              "show_overlay": true,
+              "background": "#006b6e",
+              "opacity": 71
+            }
+          }
+        },
+        "block_order": [
+          "1571949201106-0"
+        ],
+        "settings": {
+          "desktop_height": "small",
+          "mobile_height": "natural",
+          "full-width": true,
+          "parallax": false,
+          "autoplay_enable": false,
+          "transition": "slide",
+          "autoplay_interval": 5
+        }
+      },
+      "1571949458284": {
+        "type": "dynamic-image-with-text",
+        "disabled": true,
+        "settings": {
+          "margin": "none",
+          "image": "shopify:\/\/shop_images\/susn-matthiessen-778851-unsplash.jpg",
+          "alignment": "left",
+          "desktop_height": "medium",
+          "mobile_height": "natural",
+          "parallax": false,
+          "title": "Where Faithful Friends Belong",
+          "content": "<p><strong>An “on-purpose” caring guest experience.<\/strong><\/p>\n\n<p>We’re not just a web store or retail location, our brand is informed by the very thing that makes us love dogs. Loyalty, kindness, friendship, fun. These are the attributes that drive the Dogologie experience. We’ve done it right when we care for you as much as you care for your dog.<\/p>\n\n<p><a href=\"\/pages\/customer-care\" title=\"Customer Care\" class=\"action-button\"><strong>Example: Our Return Policy<\/strong><\/a><\/p>"
+        }
+      },
+      "static-password": {
+        "type": "static-password",
+        "settings": {
+          "password-page-social-icons": true,
+          "image": "",
+          "newsletter_text": "<p>Find out when we open:<\/p>"
+        }
+      },
+      "1571951244765": {
+        "type": "dynamic-slideshow",
+        "blocks": {
+          "1571951244765-0": {
+            "type": "feature",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Dogologist_Photo.jpg",
+              "slide_title": "\"Why We Chose It\": The Dogologist",
+              "caption": "A regularly updated catalog of product reviews, hilarious stories about dogs and stuff every dog-loving person ought to know about their loyal companion. The best place for faithful friends to belong on the web!",
+              "button": "Read More",
+              "link": "shopify:\/\/blogs\/the-dogologist",
+              "alignment": "left bottom",
+              "show_overlay": false,
+              "background": "#d8de5e",
+              "opacity": 34
+            }
+          }
+        },
+        "block_order": [
+          "1571951244765-0"
+        ],
+        "settings": {
+          "desktop_height": "large",
+          "mobile_height": "natural",
+          "full-width": true,
+          "parallax": false,
+          "autoplay_enable": false,
+          "transition": "slide",
+          "autoplay_interval": 5
+        }
+      },
+      "career-static-page": {
+        "type": "career-static-page",
+        "settings": {
+          "show-breadcrumbs": true,
+          "title": "",
+          "content": ""
+        }
+      },
+      "dynamic-menu-list": {
+        "type": "dynamic-menu-list",
+        "blocks": {
+          "351b02b7-696e-4184-9a6b-486f7c66db78": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "menu": "part-time-positions",
+              "image": "shopify:\/\/shop_images\/Dog_Lover.png"
+            }
+          },
+          "c561516c-119e-4381-8f91-87ed53dac42c": {
+            "type": "menu",
+            "disabled": true,
+            "settings": {
+              "menu": "full-time-positions",
+              "image": "shopify:\/\/shop_images\/Dogs.png"
+            }
+          }
+        },
+        "block_order": [
+          "351b02b7-696e-4184-9a6b-486f7c66db78",
+          "c561516c-119e-4381-8f91-87ed53dac42c"
+        ],
+        "settings": {
+          "title": "Menu list",
+          "border": true
+        }
+      },
+      "dynamic-image-with-text": {
+        "type": "dynamic-image-with-text",
+        "settings": {
+          "margin": "regular",
+          "image": "shopify:\/\/shop_images\/eric-ward-610868-unsplash.jpg",
+          "alignment": "left",
+          "desktop_height": "natural",
+          "mobile_height": "natural",
+          "parallax": false,
+          "title": "Positions Available",
+          "content": "<li>Part-Time: Store Sales &amp; Stocking Clerk<\/li><br>\n<button href=\"https:\/\/form.jotform.com\/212135270556147\" target=\"_blank\" class=\"action-button\">Apply<\/button>"
+        }
+      },
+      "dynamic-richtext": {
+        "type": "dynamic-richtext",
+        "blocks": {
+          "85302c3a-8d30-4525-a54b-cee45932343c": {
+            "type": "plain_text",
+            "settings": {
+              "title": "Why We Work Here",
+              "caption": "<p>Joining our pack has <em>real<\/em> benefits.<\/p><p>We employ people at every level. Whether it’s someone looking for a full-time career in managing an entrepreneurial venture, or anyone looking to just work hourly on weekends. We are a values-centric, team of friends who share a love for dogs, people, and our wonderful town. We are unlike any retail store in downtown Fredericksburg in the way we invest in our culture, we even offer profit sharing to every employee after only 30 days of working here. Not sure what role you might want to play? Curious to learn what it’s like to run a retail business? We have plenty of room for people to explore their strengths. Just bring a heartbeat like ours and you’ll fit right in! Who knows, this could be the start of something wonderful!<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "85302c3a-8d30-4525-a54b-cee45932343c"
+        ],
+        "settings": {
+          "border": false,
+          "feature-borders": false
+        }
+      },
+      "rich-text": {
+        "type": "rich-text",
+        "blocks": {
+          "10f54ab8-e319-408d-af21-67fd9496e3fd": {
+            "type": "plain_text",
+            "settings": {
+              "title": "We exist to be a place where faithful friends belong",
+              "caption": "<p>By being a companion to the dog-lover lifestyle. <\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "10f54ab8-e319-408d-af21-67fd9496e3fd"
+        ],
+        "settings": {
+          "border": false,
+          "feature-borders": false
+        }
+      },
+      "image-with-text": {
+        "type": "image-with-text",
+        "settings": {
+          "margin": "regular",
+          "image": "shopify:\/\/shop_images\/hoodie-and-t-shirt-mockup-featuring-two-women-working-45662-r-el2.png",
+          "alignment": "right",
+          "desktop_height": "large",
+          "mobile_height": "natural",
+          "parallax": false,
+          "title": "This isn’t just a job, it’s an experience with a great team of people and unique benefits:",
+          "content": "<ul id=\"list\">\n<li>1. Profit Sharing Bonus Program for everyone after only 90 days so you know what it feels like to own this brand!<\/li>\n<li>2. Flat organization, find and do the job you love to do.<\/li>\n<li>3. 401k retirement plans<\/li>\n<li>4.Health Reimbursement Plan<\/li>\n<li>5. Weekend Pay Differential to account for the fact that you're working when others aren’t (even though it’s still fun!)<\/li>\n<li>6.Bi-weekly paydays so you don’t have to wait for the end of the month<\/li>\n<li>7.Values Centric with a <a href=\"https:\/\/dogologie.com\/pages\/heart\" target=\"_blank\">heartbeat<\/a>\n<\/li>\n<\/ul><br>\n<a class=\"action-button\" href=\"https:\/\/form.jotform.com\/212135270556147\" target=\"_blank\">Apply<\/a>"
+        }
+      },
+      "image-and-text": {
+        "type": "image-and-text",
+        "settings": {
+          "margin": "regular",
+          "image": "shopify:\/\/shop_images\/Webp.net-resizeimage_3.jpg",
+          "alignment": "left",
+          "desktop_height": "natural",
+          "mobile_height": "natural",
+          "parallax": false,
+          "title": "Positions Available",
+          "content": "<li>Store Sales &amp; Stocking Clerk<\/li><br>\n<a class=\"action-button\" href=\"https:\/\/form.jotform.com\/212135270556147\" target=\"_blank\">Apply<\/a>"
+        }
+      },
+      "text": {
+        "type": "text",
+        "blocks": {
+          "bf76e3a1-a126-46b1-8996-01b8a519fe47": {
+            "type": "plain_text",
+            "settings": {
+              "title": "Why We Work Here",
+              "caption": "<br><p style=\"font-size: 18px;\">Joining our pack has <em>real<\/em> benefits.<\/p><p id=\"margin\" style=\"margin-left: 11.5em; margin-right:11.5em;\">We employ people at every level. Whether it’s someone looking for a full-time career in managing an entrepreneurial venture, or anyone looking to just work hourly on weekends. We are a values-centric, team of friends who share a love for dogs, people, and our wonderful town. We are unlike any retail store in downtown Fredericksburg in the way we invest in our culture, we even offer profit sharing to every employee after only 90 days of working here. Not sure what role you might want to play? Curious to learn what it’s like to run a retail business? We have plenty of room for people to explore their strengths. Just bring a heartbeat like ours and you’ll fit right in! Who knows, this could be the start of something wonderful!<\/p><p> <a class=\"action-button submit\" href=\"\/pages\/heart\" target=\"_blank\" title=\"Heart\">Our Core Values<\/a><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "bf76e3a1-a126-46b1-8996-01b8a519fe47"
+        ],
+        "settings": {
+          "border": false,
+          "feature-borders": false
+        }
+      },
+      "16362573571ef70ead": {
+        "type": "image-with-text",
+        "settings": {
+          "margin": "regular",
+          "image": "shopify:\/\/shop_images\/Planning_a_Trip_To_Fredericksburg_Texas.jpg",
+          "alignment": "right",
+          "desktop_height": "small",
+          "mobile_height": "natural",
+          "parallax": false,
+          "title": "Planning A Trip",
+          "content": "<p>We love ‘em, but our fine canine friends require some planning. We’d love to meet your dog; here are a bundle of resources to help navigate the dog-friendly side of Fredericksburg and the Hill Country. From lodging, to wineries, to restaurants!\n<\/p>\n<a class=\"action-button\" href=\"https:\/\/dogologie.com\/pages\/visit-us\">Plan Your Trip<\/a>"
+        }
+      },
+      "1636257669741f3d5d": {
+        "type": "image-with-text",
+        "disabled": true,
+        "settings": {
+          "margin": "regular",
+          "image": "shopify:\/\/shop_images\/susn-matthiessen-778851-unsplash.jpg",
+          "alignment": "left",
+          "desktop_height": "small",
+          "mobile_height": "natural",
+          "parallax": false,
+          "title": "Where Faithful Friends Belong",
+          "content": "<h3>An “on-purpose” caring guest experience.<\/h3>\n\n<p>We’re not just a web store or retail location, our brand is informed by the very thing that makes us love dogs. Loyalty, kindness, friendship, fun. These are the attributes that drive the Dogologie experience. We’ve done it right when we care for you as much as you care for your dog.<\/p>\n<a class=\"action-button\" href=\"\">Example: Our Return Policy<\/a>"
+        }
+      },
+      "1636258023b967f8f0": {
+        "type": "image-and-text",
+        "settings": {
+          "margin": "regular",
+          "image": "shopify:\/\/shop_images\/susn-matthiessen-778851-unsplash.jpg",
+          "alignment": "left",
+          "desktop_height": "medium",
+          "mobile_height": "natural",
+          "parallax": false,
+          "title": "Where Faithful Friends Belong",
+          "content": "<h3>An “on-purpose” caring guest experience.<\/h3>\n\n<p>We’re not just a web store or retail location, our brand is informed by the very thing that makes us love dogs. Loyalty, kindness, friendship, fun. These are the attributes that drive the Dogologie experience. We’ve done it right when we care for you as much as you care for your dog.<\/p>\n<a class=\"action-button\" href=\"https:\/\/dogologie.com\/policies\/refund-policy\">Example: Our Return Policy<\/a>"
+        }
+      },
+      "1636258696da45ba62": {
+        "type": "text",
+        "blocks": {
+          "1636258696da45ba62-0": {
+            "type": "plain_text",
+            "settings": {
+              "title": "Subscribe: Get Dogologie Curation on Your Doorstep",
+              "caption": "<p>We’re exploring the concept of doing a periodical subscription box for our dog-lover pack. If you’re curious, we’d love to know what you’d enjoy!<\/p><br>\n<a id=\"button\" class=\"call-to-action\" href=\"https:\/\/dogologie.com\/pages\/subscription-services\">Learn More<\/a>"
+            }
+          }
+        },
+        "block_order": [
+          "1636258696da45ba62-0"
+        ],
+        "settings": {
+          "border": false,
+          "feature-borders": false
+        }
+      },
+      "1636258878cd11e34a": {
+        "type": "dynamic-spacer",
+        "settings": {
+          "spacer-height": 50
+        }
+      },
+      "163650863603f21baa": {
+        "type": "menu-list2",
+        "blocks": {
+          "163650863603f21baa-0": {
+            "type": "menu",
+            "settings": {
+              "menu": "for-dogs",
+              "image": "shopify:\/\/shop_images\/dog-adobestock_211106504.jpg"
+            }
+          },
+          "163650863603f21baa-1": {
+            "type": "menu",
+            "settings": {
+              "menu": "for-dog-lovers",
+              "image": "shopify:\/\/shop_images\/Lovers_AdobeStock_248108863.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "163650863603f21baa-0",
+          "163650863603f21baa-1"
+        ],
+        "settings": {
+          "title": "Shop our carefully curated selection of items",
+          "border": false
+        }
+      },
+      "163652040166afb405": {
+        "type": "dynamic-spacer",
+        "settings": {
+          "spacer-height": 80
+        }
+      },
+      "163829544270ef3bac": {
+        "type": "image-and-text",
+        "disabled": true,
+        "settings": {
+          "margin": "regular",
+          "image": "shopify:\/\/shop_images\/3_Boxes_597077e5-639f-4640-a86d-fb689a00a9fb.png",
+          "alignment": "right",
+          "desktop_height": "medium",
+          "mobile_height": "natural",
+          "parallax": false,
+          "title": "Dogologie Holiday Box",
+          "content": "<h3>Limited Supply!<\/h3>\n<h4>Order by 4:00pm on Dec 15 to ensure delivery by Christmas.<\/h4>\n<p>Not sure what to get your pup for Christmas? Dogologie has you covered. Pick from three different levels of Gift Boxes and your dog is sure to have the best Christmas ever. And we don't forget the dog lover. We've got something in there for you, too.\n\nEach box comes with a gift for the Dog Lover, Christmas Bandana, at least one type of treat and one type of toy. \n<\/p>\n<a class=\"action-button\" href=\"https:\/\/dogologie.com\/holiday-box\">Shop Holiday Boxes<\/a>"
+        }
+      },
+      "visit-static-page": {
+        "type": "visit-static-page",
+        "settings": {
+          "show-breadcrumbs": true,
+          "title": "",
+          "content": ""
+        }
+      },
+      "text-visit-1": {
+        "type": "text-visit-1",
+        "blocks": {
+          "a4a650ed-73ca-4b31-b623-20715bd72d93": {
+            "type": "imported_page",
+            "settings": {
+              "page": "visit-us"
+            }
+          }
+        },
+        "block_order": [
+          "a4a650ed-73ca-4b31-b623-20715bd72d93"
+        ],
+        "settings": {
+          "border": false,
+          "feature-borders": false
+        }
+      },
+      "dog-pause-banner": {
+        "type": "dog-pause-banner",
+        "settings": {
+          "show-breadcrumbs": true,
+          "title": "",
+          "content": ""
+        }
+      },
+      "stroller-banner": {
+        "type": "stroller-banner",
+        "settings": {
+          "show-breadcrumbs": true,
+          "title": "",
+          "content": ""
+        }
+      },
+      "text-visit-2": {
+        "type": "text-visit-2",
+        "blocks": {
+          "77253c81-dc51-4104-b895-2ae331d71812": {
+            "type": "imported_page",
+            "settings": {
+              "page": "copy-of-visit-us-part-2"
+            }
+          }
+        },
+        "block_order": [
+          "77253c81-dc51-4104-b895-2ae331d71812"
+        ],
+        "settings": {
+          "border": false,
+          "feature-borders": false
+        }
+      }
+    },
+    "content_for_index": [
+      "dynamic-slideshow",
+      "163652040166afb405",
+      "163650863603f21baa",
+      "1636258696da45ba62",
+      "1636258878cd11e34a",
+      "163829544270ef3bac",
+      "1571949458284",
+      "1636258023b967f8f0",
+      "1636257669741f3d5d",
+      "1571949201106",
+      "16362573571ef70ead",
+      "1571951244765"
+    ]
+  },
+  "presets": {
+    "Organic": {
+      "background-colour": "#ffffff",
+      "primary-border-colour": "#ebebeb",
+      "text-colour": "#052422",
+      "title-colour": "#052422",
+      "accent-colour": "#81550d",
+      "button-text-colour": "#ffffff",
+      "logotype-link-colour": "#052422",
+      "header-action-link-colour": "#052422",
+      "nav-link-colour": "#052422",
+      "nav-link-dropdown-colour": "#ffffff",
+      "nav-background-colour": "#052422",
+      "nav-border-colour": "#dddddd",
+      "font_body": "itc_novarese_n4",
+      "font_headings": "mariposa_sans_n4",
+      "font_headings_captialize": false,
+      "font_headings_secondary": "itc_stone_sans_ii_n3",
+      "font_accent": "avenir_next_n3",
+      "show-brand-names": false,
+      "image-borders": false,
+      "show_atc": true,
+      "show_product_secondary_image": false,
+      "enable_product_details_overlay": true,
+      "product_grid_aspect_ratio": "default",
+      "enable-quick-shop": true,
+      "quickshop_variant_options_style": "select",
+      "quickshop_show_variant_sku": false,
+      "quickshop-product-quantity-option": false,
+      "quickshop-product-email-link": false,
+      "quickshop_show_spb": false,
+      "quickshop_enable_cart_redirect": false,
+      "quickshop_social_sharing_buttons": false,
+      "quickshop_image_zoom": false,
+      "quickshop-thumb-orientation": "left",
+      "quickshop_fitting_guide_url": "",
+      "quickshop_fitting_guide_icon": "shirt",
+      "enable_currency_converter": true,
+      "currency_display_format": "money_format",
+      "currency_converter_currencies": "USD CAD EUR GBP AUD",
+      "currency_converter_default": "USD",
+      "enable_checkout_lock_icon": false,
+      "show-mailing-list": true,
+      "sections": {
+        "static-header": {
+          "type": "static-header",
+          "settings": {
+            "header-layout": "minimal-sticky",
+            "center-header": true,
+            "social-icons": false,
+            "show-labels": false,
+            "cart-icon": "cart",
+            "live_search_enabled": true,
+            "live_search_display": "product-article-page",
+            "top-level-columns": "two-columns"
+          }
+        },
+        "pxs-announcement-bar": {
+          "type": "pxs-announcement-bar",
+          "settings": {
+            "show_announcement": true,
+            "announcement_home_only": true,
+            "announcement_color": "#ffffff",
+            "announcement_background": "#355755"
+          }
+        },
+        "dynamic-slideshow": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "dynamic-slideshow-block-one": {
+              "type": "feature",
+              "settings": {
+                "alignment": "left top",
+                "show_overlay": false,
+                "background": "#000000",
+                "opacity": 1
+              }
+            }
+          },
+          "block_order": [
+            "dynamic-slideshow-block-one"
+          ],
+          "settings": {
+            "desktop_height": "natural",
+            "mobile_height": "small",
+            "full-width": true,
+            "parallax": false,
+            "autoplay_enable": false,
+            "transition": "slide",
+            "autoplay_interval": 5
+          }
+        },
+        "1547507975737": {
+          "type": "dynamic-logo-list",
+          "blocks": {
+            "1547572012694": {
+              "type": "feature",
+              "settings": {
+              }
+            },
+            "1547572000295": {
+              "type": "feature",
+              "settings": {
+              }
+            },
+            "1547507975737-0": {
+              "type": "feature",
+              "settings": {
+              }
+            },
+            "1547507975737-2": {
+              "type": "feature",
+              "settings": {
+              }
+            },
+            "1547507975737-1": {
+              "type": "feature",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "1547572012694",
+            "1547572000295",
+            "1547507975737-0",
+            "1547507975737-2",
+            "1547507975737-1"
+          ],
+          "settings": {
+            "border": false,
+            "logos_per_row": 5
+          }
+        },
+        "static-page": {
+          "type": "static-page",
+          "settings": {
+            "show-breadcrumbs": false
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "settings": {
+            "footer-mailing-list": true,
+            "footer-payment-options": false,
+            "footer-alternate": false
+          }
+        },
+        "static-search": {
+          "type": "static-search",
+          "settings": {
+            "show-breadcrumbs": false,
+            "pagination-style": "standard"
+          }
+        },
+        "static-collection-list": {
+          "type": "static-collection-list",
+          "settings": {
+            "show-breadcrumbs": false,
+            "rows": 6,
+            "collections-per-row": 3,
+            "pagination-style": "standard"
+          }
+        },
+        "static-404": {
+          "type": "static-404",
+          "settings": {
+            "show-breadcrumbs": true
+          }
+        },
+        "1547592044191": {
+          "type": "dynamic-collection",
+          "settings": {
+            "collection": "",
+            "border": false,
+            "rows": 1,
+            "products_per_row": 3
+          }
+        },
+        "static-subcollection": {
+          "type": "static-subcollection",
+          "settings": {
+            "show-breadcrumbs": false,
+            "show-collection-image": false,
+            "layout": "showcase"
+          }
+        },
+        "1548362660068": {
+          "type": "dynamic-image-with-text",
+          "settings": {
+            "margin": "regular",
+            "alignment": "left",
+            "desktop_height": "natural",
+            "mobile_height": "natural",
+            "parallax": false
+          }
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "show-breadcrumbs": false,
+            "recent-posts": false,
+            "tag-list": false,
+            "pagination-style": "standard"
+          }
+        },
+        "dynamic-twitter": {
+          "type": "dynamic-twitter",
+          "settings": {
+            "border": false
+          }
+        },
+        "1548188077071": {
+          "type": "dynamic-instagram",
+          "settings": {
+            "title": "",
+            "border": false
+          }
+        },
+        "static-page-contact": {
+          "type": "static-page-contact",
+          "settings": {
+            "show-breadcrumbs": false
+          }
+        },
+        "static-product": {
+          "type": "static-product",
+          "settings": {
+            "details_alignment": "left",
+            "variant_options_style": "select",
+            "show_variant_sku": false,
+            "show-breadcrumbs": false,
+            "product-quantity-option": false,
+            "product-email-link": true,
+            "enable_cart_redirect": false,
+            "social-sharing-buttons": true,
+            "image-zoom": true,
+            "thumb-orientation": "list",
+            "fitting-guide-icon": "shirt"
+          }
+        },
+        "1543439643693": {
+          "type": "dynamic-image-with-text",
+          "settings": {
+            "margin": "none",
+            "alignment": "right",
+            "desktop_height": "natural",
+            "mobile_height": "natural",
+            "parallax": false
+          }
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "show-breadcrumbs": false,
+            "show-share": false,
+            "recent-posts": false,
+            "tag-list": false
+          }
+        },
+        "static-collection": {
+          "type": "static-collection",
+          "settings": {
+            "show-breadcrumbs": false,
+            "show-collection-image": false,
+            "rows": 11,
+            "products_per_row": 3,
+            "enable-sorting": false,
+            "enable-tagfilter": false,
+            "collection-sidebar": false,
+            "pagination-style": "jump-to-page"
+          }
+        },
+        "static-cart": {
+          "type": "static-cart",
+          "settings": {
+            "show-breadcrumbs": false,
+            "shipping-calculator": false,
+            "shipping-calculator-default-country": "United States"
+          }
+        }
+      },
+      "content_for_index": [
+        "dynamic-slideshow",
+        "1547507975737",
+        "1547592044191",
+        "1548362660068",
+        "1543439643693",
+        "dynamic-twitter",
+        "1548188077071"
+      ]
+    },
+    "Light": {
+      "background-colour": "#ffffff",
+      "primary-border-colour": "#eeeeee",
+      "text-colour": "#222222",
+      "title-colour": "#000000",
+      "accent-colour": "#1b1e3f",
+      "button-text-colour": "#ffffff",
+      "logotype-link-colour": "#222222",
+      "header-action-link-colour": "#1b1e3f",
+      "nav-link-colour": "#222222",
+      "nav-link-dropdown-colour": "#ffffff",
+      "nav-background-colour": "#1b1e3f",
+      "nav-border-colour": "#dddddd",
+      "font_body": "itc_berkeley_old_style_n4",
+      "font_headings": "itc_caslon_no_224_n4",
+      "font_headings_captialize": false,
+      "font_headings_secondary": "twentieth_century_n4",
+      "font_accent": "twentieth_century_n4",
+      "show-brand-names": true,
+      "image-borders": false,
+      "show_atc": true,
+      "show_product_secondary_image": true,
+      "enable_product_details_overlay": false,
+      "product_grid_aspect_ratio": "default",
+      "enable-quick-shop": true,
+      "quickshop_variant_options_style": "select",
+      "quickshop_show_variant_sku": false,
+      "quickshop-product-quantity-option": true,
+      "quickshop-product-email-link": true,
+      "quickshop_show_spb": true,
+      "quickshop_enable_cart_redirect": false,
+      "quickshop_social_sharing_buttons": false,
+      "quickshop_image_zoom": true,
+      "quickshop-thumb-orientation": "left",
+      "quickshop_fitting_guide_url": "frontpage",
+      "quickshop_fitting_guide_icon": "shirt",
+      "enable_currency_converter": true,
+      "currency_display_format": "money_with_currency_format",
+      "currency_converter_currencies": "USD CAD EUR GBP AUD",
+      "currency_converter_default": "USD",
+      "enable_checkout_lock_icon": false,
+      "show-mailing-list": true,
+      "sections": {
+        "1547161705433": {
+          "type": "dynamic-instagram",
+          "settings": {
+            "title": "",
+            "border": false
+          }
+        },
+        "static-header": {
+          "type": "static-header",
+          "settings": {
+            "header-layout": "normal",
+            "center-header": true,
+            "social-icons": true,
+            "show-labels": false,
+            "cart-icon": "bag",
+            "live_search_enabled": true,
+            "live_search_display": "product-article-page",
+            "top-level-columns": "one-column"
+          }
+        },
+        "dynamic-slideshow": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "1546623148327": {
+              "type": "feature",
+              "settings": {
+                "alignment": "right bottom",
+                "show_overlay": false,
+                "background": "#000000",
+                "opacity": 1
+              }
+            },
+            "1546623120714": {
+              "type": "feature",
+              "settings": {
+                "alignment": "center bottom",
+                "show_overlay": false,
+                "background": "#000",
+                "opacity": 1
+              }
+            },
+            "1546623024407": {
+              "type": "feature",
+              "settings": {
+                "alignment": "left bottom",
+                "show_overlay": false,
+                "background": "#000",
+                "opacity": 1
+              }
+            }
+          },
+          "block_order": [
+            "1546623148327",
+            "1546623120714",
+            "1546623024407"
+          ],
+          "settings": {
+            "desktop_height": "large",
+            "mobile_height": "small",
+            "full-width": true,
+            "parallax": true,
+            "autoplay_enable": false,
+            "transition": "slide",
+            "autoplay_interval": 5
+          }
+        },
+        "static-page": {
+          "type": "static-page",
+          "settings": {
+            "show-breadcrumbs": true
+          }
+        },
+        "1547160608056": {
+          "type": "dynamic-video",
+          "settings": {
+            "title": "",
+            "border": false
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "settings": {
+            "footer-mailing-list": false,
+            "footer-payment-options": true,
+            "footer-alternate": false
+          }
+        },
+        "static-search": {
+          "type": "static-search",
+          "settings": {
+            "show-breadcrumbs": true,
+            "pagination-style": "standard"
+          }
+        },
+        "dynamic-blog": {
+          "type": "dynamic-blog",
+          "settings": {
+            "border": false,
+            "blog": ""
+          }
+        },
+        "static-collection-list": {
+          "type": "static-collection-list",
+          "settings": {
+            "show-breadcrumbs": true,
+            "rows": 10,
+            "collections-per-row": 4,
+            "pagination-style": "jump-to-page"
+          }
+        },
+        "1542763484627": {
+          "type": "pxs-map",
+          "settings": {
+            "section_height": "medium",
+            "text_alignment": "center",
+            "layout": "overlay-center-center",
+            "layout_mobile": "below",
+            "enable_custom_colors": true,
+            "foreground_color": "#292929",
+            "background_color": "#ffffff",
+            "zoom": 1,
+            "image_position": "bottom center",
+            "overlay_color": "#000000",
+            "opacity": 0
+          }
+        },
+        "static-404": {
+          "type": "static-404",
+          "settings": {
+            "show-breadcrumbs": true
+          }
+        },
+        "static-subcollection": {
+          "type": "static-subcollection",
+          "settings": {
+            "show-breadcrumbs": true,
+            "show-collection-image": false,
+            "layout": "showcase"
+          }
+        },
+        "static-cart": {
+          "type": "static-cart",
+          "settings": {
+            "show-breadcrumbs": true,
+            "shipping-calculator": true,
+            "shipping-calculator-default-country": "United States"
+          }
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "show-breadcrumbs": true,
+            "recent-posts": true,
+            "tag-list": true,
+            "pagination-style": "jump-to-page"
+          }
+        },
+        "1547162103029": {
+          "type": "pxs-newsletter",
+          "settings": {
+            "desktop_alignment": "left",
+            "mobile_alignment": "top"
+          }
+        },
+        "1543265782218": {
+          "type": "dynamic-collection",
+          "settings": {
+            "border": false,
+            "rows": 1,
+            "products_per_row": 4
+          }
+        },
+        "dynamic-collection": {
+          "type": "dynamic-collection",
+          "settings": {
+            "border": false,
+            "rows": 1,
+            "products_per_row": 4
+          }
+        },
+        "static-product": {
+          "type": "static-product",
+          "settings": {
+            "details_alignment": "left",
+            "variant_options_style": "radio",
+            "show_variant_sku": false,
+            "show-breadcrumbs": true,
+            "product-quantity-option": true,
+            "product-email-link": true,
+            "enable_cart_redirect": false,
+            "social-sharing-buttons": true,
+            "image-zoom": false,
+            "thumb-orientation": "left",
+            "fitting-guide-link": "frontpage",
+            "fitting-guide-icon": "shirt"
+          }
+        },
+        "1543439643693": {
+          "type": "dynamic-image-with-text",
+          "settings": {
+            "margin": "regular",
+            "alignment": "right",
+            "desktop_height": "natural",
+            "mobile_height": "natural",
+            "parallax": true
+          }
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "show-breadcrumbs": true,
+            "show-share": false,
+            "recent-posts": true,
+            "tag-list": false
+          }
+        },
+        "static-collection": {
+          "type": "static-collection",
+          "blocks": {
+            "1542762466351": {
+              "type": "feature",
+              "settings": {
+                "style": "primary",
+                "position": "3"
+              }
+            },
+            "1547154331446": {
+              "type": "feature",
+              "settings": {
+                "style": "primary",
+                "position": "3"
+              }
+            },
+            "1547154724775": {
+              "type": "feature",
+              "settings": {
+                "style": "primary",
+                "position": "3"
+              }
+            },
+            "1547154817500": {
+              "type": "feature",
+              "settings": {
+                "style": "primary",
+                "position": "3"
+              }
+            },
+            "1547155005982": {
+              "type": "feature",
+              "settings": {
+                "style": "primary",
+                "position": "3"
+              }
+            },
+            "1548724394490": {
+              "type": "feature",
+              "settings": {
+                "style": "primary",
+                "position": "3"
+              }
+            }
+          },
+          "block_order": [
+            "1542762466351",
+            "1547154331446",
+            "1547154724775",
+            "1547154817500",
+            "1547155005982",
+            "1548724394490"
+          ],
+          "settings": {
+            "show-breadcrumbs": true,
+            "show-collection-image": false,
+            "rows": 4,
+            "products_per_row": 4,
+            "enable-sorting": true,
+            "enable-tagfilter": true,
+            "collection-sidebar": true,
+            "collection-sidebar-menu": "jump-to",
+            "pagination-style": "jump-to-page"
+          }
+        },
+        "dynamic-twitter": {
+          "type": "dynamic-twitter",
+          "settings": {
+            "border": false
+          }
+        },
+        "static-page-contact": {
+          "type": "static-page-contact",
+          "settings": {
+            "show-breadcrumbs": true
+          }
+        }
+      },
+      "content_for_index": [
+        "dynamic-slideshow",
+        "dynamic-collection",
+        "1543439643693",
+        "1543265782218",
+        "1547160608056",
+        "dynamic-blog",
+        "1542763484627",
+        "dynamic-twitter",
+        "1547161705433",
+        "1547162103029"
+      ]
+    },
+    "Modern": {
+      "background-colour": "#fefefe",
+      "primary-border-colour": "#ebebeb",
+      "text-colour": "#606060",
+      "title-colour": "#4b4b4b",
+      "accent-colour": "#713434",
+      "button-text-colour": "#ffffff",
+      "logotype-link-colour": "#713434",
+      "header-action-link-colour": "#4b4b4b",
+      "nav-link-colour": "#606060",
+      "nav-link-dropdown-colour": "#ffffff",
+      "nav-background-colour": "#713434",
+      "nav-border-colour": "#ebebeb",
+      "font_body": "madera_n4",
+      "font_headings": "madera_n4",
+      "font_headings_captialize": false,
+      "font_headings_secondary": "madera_n4",
+      "font_accent": "madera_n4",
+      "favicon": "",
+      "show-brand-names": true,
+      "image-borders": false,
+      "show_atc": false,
+      "show_product_secondary_image": true,
+      "enable_product_details_overlay": false,
+      "product_grid_aspect_ratio": "square",
+      "enable-quick-shop": true,
+      "quickshop_variant_options_style": "select",
+      "quickshop_show_variant_sku": false,
+      "quickshop-product-quantity-option": true,
+      "quickshop-product-email-link": true,
+      "quickshop_show_spb": true,
+      "quickshop_enable_cart_redirect": false,
+      "quickshop_social_sharing_buttons": false,
+      "quickshop_image_zoom": true,
+      "quickshop-thumb-orientation": "below",
+      "quickshop_fitting_guide_icon": "shirt",
+      "enable_currency_converter": true,
+      "currency_display_format": "money_format",
+      "currency_converter_currencies": "CAD USD GBP EUR AUD",
+      "currency_converter_default": "USD",
+      "enable_checkout_lock_icon": false,
+      "show-mailing-list": true,
+      "sections": {
+        "pxs-announcement-bar": {
+          "type": "pxs-announcement-bar",
+          "settings": {
+            "show_announcement": false,
+            "announcement_home_only": true,
+            "announcement_color": "#ffffff",
+            "announcement_background": "#713434"
+          }
+        },
+        "static-header": {
+          "type": "static-header",
+          "settings": {
+            "header-layout": "minimal",
+            "center-header": false,
+            "social-icons": true,
+            "show-labels": false,
+            "cart-icon": "bag",
+            "live_search_enabled": true,
+            "live_search_display": "product-article-page",
+            "top-level-columns": "two-columns"
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "settings": {
+            "footer-mailing-list": true,
+            "footer-payment-options": false,
+            "footer-alternate": false
+          }
+        },
+        "dynamic-slideshow": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "1549474094695": {
+              "type": "feature",
+              "settings": {
+                "alignment": "center top",
+                "show_overlay": true,
+                "background": "#000",
+                "opacity": 15
+              }
+            },
+            "dynamic-slideshow-block-two": {
+              "type": "feature",
+              "settings": {
+                "alignment": "left bottom",
+                "show_overlay": true,
+                "background": "#000",
+                "opacity": 10
+              }
+            },
+            "dynamic-slideshow-block-one": {
+              "type": "feature",
+              "settings": {
+                "alignment": "right top",
+                "show_overlay": true,
+                "background": "#000",
+                "opacity": 10
+              }
+            }
+          },
+          "block_order": [
+            "1549474094695",
+            "dynamic-slideshow-block-two",
+            "dynamic-slideshow-block-one"
+          ],
+          "settings": {
+            "desktop_height": "medium",
+            "mobile_height": "medium",
+            "full-width": false,
+            "parallax": true,
+            "autoplay_enable": false,
+            "transition": "slide",
+            "autoplay_interval": 5
+          }
+        },
+        "dynamic-collection": {
+          "type": "dynamic-collection",
+          "settings": {
+            "border": true,
+            "rows": 2,
+            "products_per_row": 4,
+            "title": ""
+          }
+        },
+        "dynamic-richtext": {
+          "type": "dynamic-richtext",
+          "blocks": {
+            "dynamic-richtext-one": {
+              "type": "plain_text",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "dynamic-richtext-one"
+          ],
+          "settings": {
+            "border": true,
+            "feature-borders": false
+          }
+        },
+        "static-cart": {
+          "type": "static-cart",
+          "settings": {
+            "show-breadcrumbs": true,
+            "shipping-calculator": true,
+            "shipping-calculator-default-country": "United States"
+          }
+        },
+        "static-collection-list": {
+          "type": "static-collection-list",
+          "settings": {
+            "show-breadcrumbs": true,
+            "rows": 6,
+            "collections-per-row": 3,
+            "pagination-style": "standard"
+          }
+        },
+        "static-collection": {
+          "type": "static-collection",
+          "blocks": {
+            "1549587567164": {
+              "type": "feature",
+              "settings": {
+                "style": "secondary",
+                "position": "3"
+              }
+            },
+            "1549600827732": {
+              "type": "feature",
+              "settings": {
+                "style": "secondary",
+                "position": "3"
+              }
+            }
+          },
+          "block_order": [
+            "1549587567164",
+            "1549600827732"
+          ],
+          "settings": {
+            "show-breadcrumbs": true,
+            "show-collection-image": false,
+            "rows": 7,
+            "products_per_row": 4,
+            "enable-sorting": true,
+            "enable-tagfilter": true,
+            "collection-sidebar": false,
+            "pagination-style": "standard"
+          }
+        },
+        "static-product": {
+          "type": "static-product",
+          "settings": {
+            "details_alignment": "left",
+            "variant_options_style": "select",
+            "show_variant_sku": false,
+            "show-breadcrumbs": true,
+            "product-quantity-option": false,
+            "product-email-link": true,
+            "enable_cart_redirect": false,
+            "social-sharing-buttons": true,
+            "image-zoom": true,
+            "thumb-orientation": "below",
+            "fitting-guide-icon": "k"
+          }
+        },
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "show-breadcrumbs": true,
+            "recent-posts": true,
+            "tag-list": true,
+            "pagination-style": "jump-to-page"
+          }
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "show-breadcrumbs": true,
+            "show-share": false,
+            "recent-posts": true,
+            "tag-list": false
+          }
+        },
+        "dynamic-twitter": {
+          "type": "dynamic-twitter",
+          "settings": {
+            "border": true
+          }
+        },
+        "1549474340928": {
+          "type": "dynamic-video",
+          "settings": {
+            "border": true,
+            "title": ""
+          }
+        },
+        "1549474911196": {
+          "type": "pxs-map",
+          "settings": {
+            "section_height": "medium",
+            "text_alignment": "left",
+            "layout": "overlay-bottom-left",
+            "layout_mobile": "below",
+            "enable_custom_colors": true,
+            "foreground_color": "#767676",
+            "background_color": "#f2f2f2",
+            "zoom": 6,
+            "image_position": "center center",
+            "overlay_color": "#000000",
+            "opacity": 0
+          }
+        },
+        "static-page": {
+          "type": "static-page",
+          "settings": {
+            "show-breadcrumbs": true
+          }
+        },
+        "static-page-contact": {
+          "type": "static-page-contact",
+          "settings": {
+            "show-breadcrumbs": true
+          }
+        },
+        "static-search": {
+          "type": "static-search",
+          "settings": {
+            "show-breadcrumbs": true,
+            "pagination-style": "standard"
+          }
+        }
+      },
+      "content_for_index": [
+        "dynamic-slideshow",
+        "dynamic-richtext",
+        "dynamic-collection",
+        "1549474340928",
+        "dynamic-twitter",
+        "1549474911196"
+      ]
+    },
+    "Chic": {
+      "background-colour": "#ffffff",
+      "primary-border-colour": "#d4d4d4",
+      "text-colour": "#39423d",
+      "title-colour": "#39423d",
+      "accent-colour": "#4d6055",
+      "button-text-colour": "#ffffff",
+      "logotype-link-colour": "#39423d",
+      "header-action-link-colour": "#4d5852",
+      "nav-link-colour": "#4d5852",
+      "nav-link-dropdown-colour": "#ffffff",
+      "nav-background-colour": "#4d6055",
+      "nav-border-colour": "#d4d4d4",
+      "font_body": "source_sans_pro_n3",
+      "font_headings": "itc_berkeley_old_style_n4",
+      "font_headings_captialize": false,
+      "font_headings_secondary": "mundo_sans_n4",
+      "font_accent": "mundo_sans_n4",
+      "show-brand-names": false,
+      "image-borders": false,
+      "show_atc": true,
+      "show_product_secondary_image": false,
+      "enable_product_details_overlay": false,
+      "product_grid_aspect_ratio": "taller",
+      "enable-quick-shop": true,
+      "quickshop_variant_options_style": "select",
+      "quickshop_show_variant_sku": false,
+      "quickshop-product-quantity-option": true,
+      "quickshop-product-email-link": false,
+      "quickshop_show_spb": false,
+      "quickshop_enable_cart_redirect": false,
+      "quickshop_social_sharing_buttons": true,
+      "quickshop_image_zoom": true,
+      "quickshop-thumb-orientation": "left",
+      "quickshop_fitting_guide_icon": "shirt",
+      "enable_currency_converter": true,
+      "currency_display_format": "money_format",
+      "currency_converter_currencies": "CAD USD EUR GBP AUD",
+      "currency_converter_default": "USD",
+      "enable_checkout_lock_icon": false,
+      "show-mailing-list": true,
+      "nav-link-hover-colour": "#4d6055",
+      "alt-product-card": false,
+      "logotype-link-hover-colour": "#4d6055",
+      "accent-hover-colour": "#3b4941",
+      "header-action-link-hover-colour": "#39423d",
+      "sections": {
+        "static-blog": {
+          "type": "static-blog",
+          "settings": {
+            "show-breadcrumbs": false,
+            "recent-posts": false,
+            "tag-list": true,
+            "pagination-style": "standard"
+          }
+        },
+        "static-header": {
+          "type": "static-header",
+          "settings": {
+            "header-layout": "minimal",
+            "center-header": false,
+            "social-icons": false,
+            "show-labels": false,
+            "cart-icon": "bag",
+            "live_search_enabled": true,
+            "live_search_display": "product-article-page",
+            "top-level-columns": "two-columns"
+          }
+        },
+        "dynamic-richtext": {
+          "type": "dynamic-richtext",
+          "blocks": {
+            "dynamic-richtext-one": {
+              "type": "plain_text",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "dynamic-richtext-one"
+          ],
+          "settings": {
+            "border": false,
+            "feature-borders": false
+          }
+        },
+        "pxs-announcement-bar": {
+          "type": "pxs-announcement-bar",
+          "settings": {
+            "show_announcement": false,
+            "announcement_home_only": true,
+            "announcement_color": "#ffffff",
+            "announcement_background": "#4d6055"
+          }
+        },
+        "dynamic-product": {
+          "type": "dynamic-product",
+          "settings": {
+            "details_alignment": "center",
+            "variant_options_style": "select",
+            "show_variant_sku": false,
+            "product-quantity-option": false,
+            "product-email-link": true,
+            "enable_cart_redirect": false,
+            "social-sharing-buttons": true,
+            "image-zoom": true,
+            "thumb-orientation": "left",
+            "fitting-guide-icon": "k"
+          }
+        },
+        "dynamic-slideshow": {
+          "type": "dynamic-slideshow",
+          "blocks": {
+            "home-slideshow-block-one": {
+              "type": "feature",
+              "settings": {
+                "alignment": "center bottom",
+                "show_overlay": true,
+                "background": "#000",
+                "opacity": 5
+              }
+            },
+            "1483469567549": {
+              "type": "feature",
+              "settings": {
+                "alignment": "center bottom",
+                "show_overlay": true,
+                "background": "#000",
+                "opacity": 5
+              }
+            },
+            "home-slideshow-block-two": {
+              "type": "feature",
+              "settings": {
+                "alignment": "center bottom",
+                "show_overlay": true,
+                "background": "#000",
+                "opacity": 5
+              }
+            }
+          },
+          "block_order": [
+            "home-slideshow-block-one",
+            "1483469567549",
+            "home-slideshow-block-two"
+          ],
+          "settings": {
+            "desktop_height": "natural",
+            "mobile_height": "small",
+            "full-width": true,
+            "parallax": false,
+            "autoplay_enable": false,
+            "transition": "slide",
+            "autoplay_interval": 5
+          }
+        },
+        "static-article": {
+          "type": "static-article",
+          "settings": {
+            "show-breadcrumbs": false,
+            "show-share": true,
+            "recent-posts": true,
+            "tag-list": true
+          }
+        },
+        "dynamic-image-with-text": {
+          "type": "dynamic-image-with-text",
+          "settings": {
+            "margin": "regular",
+            "alignment": "right",
+            "desktop_height": "natural",
+            "mobile_height": "natural",
+            "parallax": false
+          }
+        },
+        "static-page": {
+          "type": "static-page",
+          "settings": {
+            "show-breadcrumbs": false
+          }
+        },
+        "static-collection": {
+          "type": "static-collection",
+          "settings": {
+            "show-breadcrumbs": false,
+            "show-collection-image": false,
+            "rows": 4,
+            "products_per_row": 4,
+            "enable-sorting": false,
+            "enable-tagfilter": false,
+            "collection-sidebar": true,
+            "pagination-style": "jump-to-page"
+          }
+        },
+        "static-footer": {
+          "type": "static-footer",
+          "settings": {
+            "footer-mailing-list": false,
+            "footer-payment-options": false,
+            "footer-alternate": false
+          }
+        },
+        "dynamic-collection": {
+          "type": "dynamic-collection",
+          "settings": {
+            "border": false,
+            "rows": 1,
+            "products_per_row": 4,
+            "title": ""
+          }
+        },
+        "dynamic-blog": {
+          "type": "dynamic-blog",
+          "settings": {
+            "border": false,
+            "blog": ""
+          }
+        },
+        "static-collection-list": {
+          "type": "static-collection-list",
+          "settings": {
+            "show-breadcrumbs": false,
+            "rows": 6,
+            "collections-per-row": 3,
+            "pagination-style": "standard"
+          }
+        },
+        "1522085894724": {
+          "type": "pxs-newsletter",
+          "settings": {
+            "desktop_alignment": "left",
+            "mobile_alignment": "top"
+          }
+        },
+        "static-page-contact": {
+          "type": "static-page-contact",
+          "settings": {
+            "show-breadcrumbs": false
+          }
+        },
+        "dynamic-instagram": {
+          "type": "dynamic-instagram",
+          "settings": {
+            "border": false,
+            "title": ""
+          }
+        },
+        "dynamic-twitter": {
+          "type": "dynamic-twitter",
+          "settings": {
+            "border": false
+          }
+        },
+        "static-product": {
+          "type": "static-product",
+          "settings": {
+            "details_alignment": "center",
+            "variant_options_style": "select",
+            "show_variant_sku": false,
+            "show-breadcrumbs": true,
+            "product-quantity-option": false,
+            "product-email-link": true,
+            "enable_cart_redirect": false,
+            "social-sharing-buttons": true,
+            "image-zoom": true,
+            "thumb-orientation": "list",
+            "fitting-guide-icon": "ruler"
+          }
+        },
+        "static-cart": {
+          "type": "static-cart",
+          "settings": {
+            "show-breadcrumbs": false,
+            "shipping-calculator": false,
+            "shipping-calculator-default-country": "United States"
+          }
+        }
+      },
+      "content_for_index": [
+        "dynamic-slideshow",
+        "dynamic-richtext",
+        "dynamic-collection",
+        "dynamic-product",
+        "dynamic-image-with-text",
+        "dynamic-blog",
+        "dynamic-twitter",
+        "dynamic-instagram",
+        "1522085894724"
+      ]
+    }
+  }
+}

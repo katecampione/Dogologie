@@ -1,0 +1,39 @@
+{%- assign height = section.settings.spacer-height -%}
+
+<div id="section-{{ section.id }}" class="spacer">&nbsp;</div>
+
+<style>
+  div#section-{{ section.id }} {
+	height: {{ section.settings.spacer-height }}px;
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Spacer",
+    "settings": [
+      {
+          "type":      "range",
+          "id":        "spacer-height",
+          "min":       10,
+          "max":       400,
+          "step":      10,
+          "unit":      "px",
+          "label":     "Height",
+          "default":   20
+      }
+    ],
+    "presets": [
+      {
+        "category": "Text",
+        "name": "Spacer"
+      }
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

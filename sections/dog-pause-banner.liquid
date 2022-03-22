@@ -1,0 +1,155 @@
+<div data-section-id="{{ section.id }}" data-section-type="static-page">
+
+  {%- assign sidebarHeading = section.settings.title | escape -%}
+  {%- assign sidebarContent = section.settings.content -%}
+
+  {%- if sidebarHeading != blank or sidebarContent != blank -%}
+    {%- assign hasSidebar = true -%}
+  {%- else -%}
+    {%- assign hasSidebar = false -%}
+  {%- endif -%}
+
+  <main class="content content-area" id ="slider">
+    <div class="container" >
+  <img src="https://cdn.shopify.com/s/files/1/0020/2915/8455/files/dog-pause-banner_4c2a30b3-15c4-4ed5-b55c-ec3761f6adb0.png?v=1646709878" alt="dog pause banner">
+  
+  
+      <div class="centered mytext" style="top: 50%; left: 62%;" id="pause">
+  		<h5 style="padding-bottom: 20px;">Give your pup a break in the A/C while you keep walking or grab lunch.</h5>
+        <a href="/pages/dog-pause" title="Dog Pause" class="action-button" id="pause-btn">Reserve A Kennel Now</a>
+   
+  </div>
+</div>
+
+      {% if hasSidebar %}
+        <div class="rte sidebar">
+          {% if sidebarHeading != blank %}
+            <h2 class="title">{{ sidebarHeading }}</h2>
+          {% endif %}
+
+          {% if sidebarContent.size > 0 %}
+            {{ sidebarContent }}
+          {% endif %}
+        </div>
+      {% endif %}
+
+    </div>
+
+  </main>
+
+</div>
+
+{% schema %}
+{
+  "name": "Static pages",
+  "settings": [
+    {
+      "type": "header",
+      "content": "General"
+    },
+    {
+      "type": "checkbox",
+      "id": "show-breadcrumbs",
+      "label": "Show breadcrumbs",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Sidebar"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "html",
+      "id": "content",
+      "label": "Content"
+    }
+  ]
+}
+
+{% endschema %}
+    
+    <style>
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  width: 100%;
+}
+  
+ .mytext {
+   /*color: red;*/
+   font-size: 22px;
+ }
+  
+
+  @media only screen and  (max-width: 500px){
+
+  .mytext {
+     font-size: smaller !important;
+}
+}
+      
+  #slider {
+      width: 100%;
+   	  padding: 0px;
+      max-width: 2000px;
+      }
+   
+  img {
+      max-height: 700px;
+      }
+      
+      .mytext {
+      font-size: 30px;
+      }
+     
+        
+         #pause {
+           max-width: 50%;
+           max-height: 900px;
+      }
+        
+      #pause-btn:hover {
+      background-color: white;
+      color: #006b6e !important;
+      border: 1px solid white;
+      }
+             @media only screen and  (max-width: 860px){
+
+  .mytext {
+     font-size: larger !important;
+}
+}
+       @media only screen and  (max-width: 500px){
+
+  .mytext {
+     font-size: smaller !important;
+    
+}
+}
+  @media only screen and  (max-width: 500px){
+
+  #pause-btn {
+     font-size: smaller !important;
+}
+}
+ @media only screen and  (max-width: 500px){
+
+  #pause {
+    max-width: 70%;
+}
+}
+   
+     
+</style>

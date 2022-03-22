@@ -1,0 +1,161 @@
+<div data-section-id="{{ section.id }}" data-section-type="static-page">
+
+  {%- assign sidebarHeading = section.settings.title | escape -%}
+  {%- assign sidebarContent = section.settings.content -%}
+
+  {%- if sidebarHeading != blank or sidebarContent != blank -%}
+    {%- assign hasSidebar = true -%}
+  {%- else -%}
+    {%- assign hasSidebar = false -%}
+  {%- endif -%}
+
+  <main class="content content-area" id ="slider">
+    <div class="container" >
+  <img src="https://cdn.shopify.com/s/files/1/0020/2915/8455/files/stroller-rental-banner_e1942977-64b1-4ef8-a027-e9b5300098a8.png?v=1646709877" alt="dog stroller banner">
+  
+  
+      <div class="centered mytext" style="top: 50%; left: 62%;" id="stroller">
+  		<h5 style="padding-bottom: 20px;">Sometimes it’s hotter than you-know-what. Sometimes your dog’s legs are a little shorter than yours. Leave your bulky stroller at home and please use ours!</h5>
+        <a href="/pages/stroller-rentals" title="Dog stroller" class="action-button" id="stroller-btn">Reserve A Stroller Now</a>
+   
+  </div>
+</div>
+
+
+      {% if hasSidebar %}
+        <div class="rte sidebar">
+          {% if sidebarHeading != blank %}
+            <h2 class="title">{{ sidebarHeading }}</h2>
+          {% endif %}
+
+          {% if sidebarContent.size > 0 %}
+            {{ sidebarContent }}
+          {% endif %}
+        </div>
+      {% endif %}
+
+    </div>
+
+  </main>
+
+</div>
+
+{% schema %}
+{
+  "name": "Static pages",
+  "settings": [
+    {
+      "type": "header",
+      "content": "General"
+    },
+    {
+      "type": "checkbox",
+      "id": "show-breadcrumbs",
+      "label": "Show breadcrumbs",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Sidebar"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "html",
+      "id": "content",
+      "label": "Content"
+    }
+  ]
+}
+
+{% endschema %}
+    
+    <style>
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  width: 100%;
+}
+  
+ .mytext {
+   /*color: red;*/
+   font-size: 22px;
+ }
+  
+
+  @media only screen and  (max-width: 500px){
+
+  .mytext {
+     font-size: smaller !important;
+}
+}
+      
+  #slider {
+      width: 100%;
+   	  padding: 0px;
+      max-width: 2000px;
+      }
+   
+  img {
+      max-height: 900px;
+      }
+      
+      .mytext {
+      font-size: 30px;
+      }
+     
+
+         #stroller {
+           max-width: 50%;
+      }
+        
+     
+      #stroller-btn {
+      background-color: white !important;
+      color: #006b6e !important;
+        border: 1px solid white;
+        
+      }
+        @media only screen and  (max-width: 860px){
+
+  .mytext {
+     font-size: larger !important;
+}
+}
+       @media only screen and  (max-width: 500px){
+
+  .mytext {
+     font-size: smaller !important;
+    
+}
+}
+  @media only screen and  (max-width: 500px){
+
+  #stroller-btn {
+     font-size: smaller !important;
+}
+}
+ @media only screen and  (max-width: 500px){
+
+  #stroller {
+    max-width: 70%;
+}
+}
+      #stroller-btn:hover {
+      background-color: #74c5d7 !important;
+        color: white !important;
+        border: 1px solid #74c5d7 !important;
+      }
+     
+</style>

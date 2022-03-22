@@ -1,0 +1,14 @@
+{% section 'static-product' %}
+{% section 'static-product-recommendations' %}
+
+<script>
+  Theme.products["{{ product.id }}"] = {{ product | json }};
+  Theme.products["{{ product.id }}"].firstVariant = {{ product.selected_or_first_available_variant.id | json }};
+</script>
+
+<!-- DRIP_PRODUCT_TRACKING_V1 -->
+<script text="text/javascript">
+  var _dcq = _dcq || [];
+  _dcq.push(['recordProductView', {{ product|json }}, {{ product.collections|map:'id'|json }}, '{{shop.currency}}', '{{ product.url }}']);
+</script>
+<!-- END_DRIP_PRODUCT_TRACKING_V1 -->

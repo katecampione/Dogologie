@@ -1,0 +1,29 @@
+{% assign sorted = linklists[collection.handle].links %}
+{% if collection.handle == 'love-your-breed' %}
+	{% assign sorted = sorted | sort: "title"%}
+{% endif %}
+<div
+  class="
+    subcollection
+    content-area
+  "
+>
+  <div
+    class="
+      subcollection-container
+      subcollection-collection
+      collections
+      row-of-3
+    "
+  >
+    {% if onboarding %}
+      {% for i in (1..6) %}
+        {% include 'collection-list-item' %}
+      {% endfor %}
+    {% else %}
+      {% for link in sorted %}
+        {% include 'collection-list-item' with 'linklist' %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>

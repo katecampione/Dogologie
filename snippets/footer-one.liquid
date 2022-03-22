@@ -1,0 +1,107 @@
+{% assign footerModules = 0 %}
+{% assign footerModules2 = 0 %}
+
+{% if footerMessage != blank %}
+  {% assign footerModules = footerModules | plus: 1 %}
+{% endif %}
+
+{% if footerMessage2 != blank %}
+  {% assign footerModules = footerModules | plus: 1 %}
+{% endif %}
+
+{% if footerMessage3 != blank %}
+  {% assign footerModules = footerModules | plus: 1 %}
+{% endif %}
+
+{% unless settings.twitter-url.size == 0 and settings.facebook-url.size == 0 and settings.pinterest-url.size == 0 and settings.instagram-url.size == 0 %}
+  {% assign footerModules2 = footerModules2 | plus: 1 %}
+{% endunless %}
+
+{% if mailingList %}
+  {% assign footerModules2 = footerModules2 | plus: 1 %}
+{% endif %}
+
+{% if linklists.footer.links.size > 0 %}
+  {% assign footerModules2 = footerModules2 | plus: 1 %}
+{% endif %}
+
+<footer class="main-footer content-area" id="main-footer">
+
+  <ul class="connect clearfix module-count-{{ footerModules }}">
+    {% if footerMessage != blank %}
+      <li class="contact first">
+        {% if section.settings.footer-message-title != blank %}
+          <h2 class="title">{{ section.settings.footer-message-title | escape }}</h2>
+        {% endif %}
+        <div class="footer-message">{{ footerMessage }}</div>
+      </li>
+    {% endif %}
+
+    {% if footerMessage2 != blank %}
+      <li class="contact">
+        {% if section.settings.footer-message-2-title != blank %}
+          <h2 class="title">{{ section.settings.footer-message-2-title | escape }}</h2>
+        {% endif %}
+        <div class="footer-message">{{ footerMessage2 }}</div>
+      </li>
+    {% endif %}
+    
+    {% if footerMessage3 != blank %}
+      <li class="contact">
+        {% if section.settings.footer-message-3-title != blank %}
+          <h2 class="title">{{ section.settings.footer-message-3-title | escape }}</h2>
+        {% endif %}
+        <div class="footer-message">{{ footerMessage3 }}</div>
+      </li>
+    {% endif %}
+ </ul>
+
+ <ul class="connect clearfix module-count-{{ footerModules2 }}" style="border-top: 0;">
+
+    {% unless settings.twitter-url.size == 0 and
+      settings.facebook-url.size == 0 and
+      settings.pinterest-url.size == 0 and
+      settings.instagram-url.size == 0 and
+      settings.tumblr-url.size == 0 and
+      settings.youtube-url.size == 0 and
+      settings.vimeo-url.size == 0
+    %}
+      <li class="social">
+        <h2 class="title">{{ 'layout.footer.social_title' | t }}</h2>
+        {% include 'social-links' %}
+      </li>
+    {% endunless %}
+
+    {% if mailingList %}
+      <li class="newsletter">
+        <h2 class="title">{{ 'layout.footer.newsletter_title' | t }}</h2>
+        {% form 'customer' %}
+          <div class="newsletter-wrap">
+            <input type="hidden" id="contact_tags" name="contact[tags]" value="prospect,newsletter"/>
+            <input class="email" name="contact[email]" type="email" placeholder="{{ 'layout.footer.email' | t }}" value="">
+            <input class="submit" name="subscribe" type="submit" value="{{ 'general.submit' | t }}">
+          </div>
+        {% endform %}
+      </li>
+    {% endif %}
+   
+   {% if linklists.footer.links.size > 0 %}
+   <li class="contact">
+    <h2 class="title">{{ linklists.footer.title }}</h2>
+    <nav class="footer-nav">
+      <ul>
+        {% for link in linklists.footer.links %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+   </li>
+    {% endif %}
+
+  </ul>
+
+  <div class="sub-footer">
+    {% include 'footer-payments' %}
+  </div>
+
+</footer>
