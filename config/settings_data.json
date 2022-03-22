@@ -689,6 +689,58 @@
           "title": "More Than Just Retail",
           "content": "<meta charset=\"utf-8\">\n<p style=\"text-align: center;\">The store serves as a tangible lifestyle resource for dog-lovers beyond just the shopping and curation experience. We are all local bloodhounds when it comes to making recommendations to visitors. Whether you’re looking for a place to eat, a winery that will welcome your dog, a stroller, or a “babysitter” for a few hours, we have a printed guide that can make Fredericksburg a much more dog-friendly place.<\/p>\n<h2 style=\"text-align: center;\">Local Dog-Friendly Lodging<\/h2>\n<h3 style=\"text-align: center;\">Dogologie Haus<\/h3>\n<div style=\"text-align: center;\">Options for dog-friendly lodging are limited in Fredericksburg, but because we’re a companion to the dog-lover lifestyle, we opened a unit of our own that is perfectly designed for you to bring your friendly dog with you. No hidden fees, no penalties for being a dog-lover.<br><br>\n<\/div>\n<div style=\"text-align: center;\"><a href=\"http:\/\/www.vrbo.com\/720246\" title=\"book at vrbo\" class=\"action-button\" id=\"\">Book now on VRBO<\/a><\/div>\n<br>\n<div style=\"text-align: center;\"><a id=\"green\" href=\"\/pages\/services\">See a list of certified partners.<\/a><\/div>\n<p>\n<script src=\"https:\/\/embed.acuityscheduling.com\/embed\/button\/18669862.js\" async=\"\"><\/script>\n<\/p>\n<h2><\/h2>"
         }
+      },
+      "visit-page-logo-list": {
+        "type": "visit-page-logo-list",
+        "blocks": {
+          "76836307-ecd7-4736-8104-fd339082c55e": {
+            "type": "feature",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/Webp.net-resizeimage_9865d4a4-861c-4834-83c7-9394548fe100.jpg",
+              "link": "https:\/\/www.vrbo.com\/720246"
+            }
+          },
+          "b542fa73-0d31-4389-8975-735cec9b3c15": {
+            "type": "feature",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/bath.png",
+              "link": "https:\/\/www.vrbo.com\/720246"
+            }
+          },
+          "91166628-7823-4a7f-9dd2-fc819353f22a": {
+            "type": "feature",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/bed1.png",
+              "link": "https:\/\/www.vrbo.com\/720246"
+            }
+          },
+          "6788d51a-05b9-4e68-9aef-ee7e2e1d5646": {
+            "type": "feature",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/bed2.png",
+              "link": "https:\/\/www.vrbo.com\/720246"
+            }
+          },
+          "cc017d98-fd1b-4183-82cc-699084c9d8a4": {
+            "type": "feature",
+            "settings": {
+              "logo": "shopify:\/\/shop_images\/BACK.png",
+              "link": "https:\/\/www.vrbo.com\/720246"
+            }
+          }
+        },
+        "block_order": [
+          "76836307-ecd7-4736-8104-fd339082c55e",
+          "b542fa73-0d31-4389-8975-735cec9b3c15",
+          "91166628-7823-4a7f-9dd2-fc819353f22a",
+          "6788d51a-05b9-4e68-9aef-ee7e2e1d5646",
+          "cc017d98-fd1b-4183-82cc-699084c9d8a4"
+        ],
+        "settings": {
+          "title": "Dogologie Haus - Now On VRBO",
+          "border": true,
+          "logos_per_row": 5
+        }
       }
     },
     "content_for_index": [
