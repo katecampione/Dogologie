@@ -676,6 +676,19 @@
           "title": "Location",
           "content": "<p>We have a physical store filled with people who love dogs, a curated and vast array of perfectly-picked and breed-specific dog items and other services to make your local stay easier. And it’s all done with a whole lotta <a href=\"https:\/\/dogologie.com\/pages\/heart?ose=false\"> heart<\/a>.<\/p>\n\n<p><strong>148 East Main St. Suite B<br>\nFredericksburg, Texas 78624<br>\n830-997-5855<\/strong><\/p>\n<p><strong>Store Hours<\/strong><\/p><p>\nMonday - Thursday: 10:30 am-5:30 pm <br>\nFriday-Saturday: 10 am-6 pm <br>\nSunday: 10 am-5 pm <br><br>\n<strong>Personal Shopping Available Outside of Regular Hours<\/strong><br>\nWe offer pre-opening and after-hours personal shopping by appointment for those who can’t get here when we’re open or prefer to shop alone. Book online by clicking the button below or Call 830-997-5855 ext 0 to set up a time.\n<\/p>\n<div style=\"text-align: center;\">\n<a href=\"https:\/\/dogologie.com\/pages\/heart?ose=false\" heart a=\"\"> <\/a><a href=\"https:\/\/app.acuityscheduling.com\/schedule.php?owner=18669862&amp;owner=18669862&amp;appointmentType=14032874\" target=\"_blank\" class=\"acuity-embed-button\" style=\"background: #5fb8b9; color: #fff; padding: 8px 12px; border: 0px; -webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset; -moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset; box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset; border-radius: 4px; text-decoration: none; display: inline-block;\" rel=\"noopener noreferrer\">Schedule Appointment<\/a>\n<script src=\"https:\/\/embed.acuityscheduling.com\/embed\/button\/18669862.js\" async=\"\"><\/script>\n<\/div>"
         }
+      },
+      "visit-bottom-image-text": {
+        "type": "visit-bottom-image-text",
+        "settings": {
+          "margin": "regular",
+          "image": "shopify:\/\/shop_images\/DogologieFebruary2020shoot-10.jpg",
+          "alignment": "left",
+          "desktop_height": "extra-large",
+          "mobile_height": "natural",
+          "parallax": false,
+          "title": "More Than Just Retail",
+          "content": "<meta charset=\"utf-8\">\n<p style=\"text-align: center;\">The store serves as a tangible lifestyle resource for dog-lovers beyond just the shopping and curation experience. We are all local bloodhounds when it comes to making recommendations to visitors. Whether you’re looking for a place to eat, a winery that will welcome your dog, a stroller, or a “babysitter” for a few hours, we have a printed guide that can make Fredericksburg a much more dog-friendly place.<\/p>\n<h2 style=\"text-align: center;\">Local Dog-Friendly Lodging<\/h2>\n<h3 style=\"text-align: center;\">Dogologie Haus<\/h3>\n<div style=\"text-align: center;\">Options for dog-friendly lodging are limited in Fredericksburg, but because we’re a companion to the dog-lover lifestyle, we opened a unit of our own that is perfectly designed for you to bring your friendly dog with you. No hidden fees, no penalties for being a dog-lover.<br><br>\n<\/div>\n<div style=\"text-align: center;\"><a href=\"http:\/\/www.vrbo.com\/720246\" title=\"book at vrbo\" class=\"action-button\" id=\"\">Book now on VRBO<\/a><\/div>\n<br>\n<div style=\"text-align: center;\"><a id=\"green\" href=\"\/pages\/services\">See a list of certified partners.<\/a><\/div>\n<p>\n<script src=\"https:\/\/embed.acuityscheduling.com\/embed\/button\/18669862.js\" async=\"\"><\/script>\n<\/p>\n<h2><\/h2>"
+        }
       }
     },
     "content_for_index": [
