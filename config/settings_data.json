@@ -669,7 +669,7 @@
         "settings": {
           "margin": "regular",
           "image": "shopify:\/\/shop_images\/Planning_a_Trip_To_Fredericksburg_Texas.jpg",
-          "alignment": "left",
+          "alignment": "right",
           "desktop_height": "extra-large",
           "mobile_height": "natural",
           "parallax": false,
