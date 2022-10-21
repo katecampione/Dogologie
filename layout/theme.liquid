@@ -53,7 +53,7 @@
     twitter_handle: settings.twitter-url
   %}
 
-  {{ content_for_header }}
+  {% include 'globo.filter.script' %}{{ content_for_header }}
 
   <link rel="stylesheet" href="https://cdn.shopify.com/s/files/1/0187/7983/2371/files/bootstrap.css?374">
   <script>
@@ -131,5 +131,6 @@
 
 {% render 'special-offers' %}
 
-</body>
+{% include 'globo.filter.action' %}
+	</body>
 </html>
