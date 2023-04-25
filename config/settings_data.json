@@ -741,6 +741,16 @@
           "border": true,
           "logos_per_row": 5
         }
+      },
+      "7d386cfd-4715-4f79-ba56-d3dfc8daa79b": {
+        "type": "dynamic-collection",
+        "settings": {
+          "collection": "march-anniversary-collection",
+          "title": "Our Favorites",
+          "border": true,
+          "rows": 2,
+          "products_per_row": 4
+        }
       }
     },
     "content_for_index": [
@@ -748,6 +758,7 @@
       "163652040166afb405",
       "163650863603f21baa",
       "1636258696da45ba62",
+      "7d386cfd-4715-4f79-ba56-d3dfc8daa79b",
       "1636258878cd11e34a",
       "163829544270ef3bac",
       "1571949458284",
