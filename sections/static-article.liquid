@@ -35,11 +35,7 @@
     </section>
 
     {% if should_display_sidebar %}
-      {%
-        include 'blog-sidebar',
-        display_recent_posts,
-        display_tags
-      %}
+      {% include 'blog-sidebar' %}
     {% endif %}
   </div>
 </section>
@@ -84,4 +80,18 @@
   ]
 }
 
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%
+            include 'blog-sidebar',
+            display_recent_posts,
+            display_tags
+          %}
+  to: "{% include 'blog-sidebar' %}"
+  position: 930..958
+{%- endcomment -%}
